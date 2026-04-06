@@ -1,6 +1,6 @@
 //Tipos de variáveis//
 import java.util.*;
-public class Main {
+public class Ex01Variaveis {
   public static void main(String[] args) {
 
     int numero = 78;
