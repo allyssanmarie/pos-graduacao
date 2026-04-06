@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Main {
+public class Ex02EntradaDadosScanner {
   public static void main(String[] args) {
     System.out.println("Informe seu nome:");
     String palavra; // variável pra receber o nome.
