@@ -1,7 +1,7 @@
 //String Métodos//
 import java.util.*;
 
-public class Main {
+public class Ex03StringsMetodos {
   public static void main(String[] args) {
     String valor = "Descomplica - Java";
     
