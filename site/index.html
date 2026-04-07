@@ -5,49 +5,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viagem dos Sonhos</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
     <header>
         <nav>
             <ul>
-                <li>Pacotes</li>
-                <li>Taxas</li>
-                <li>Contato</li>
+                <li><a href="#">Pacotes</a></li>
+                <li><a href="#">Taxas</a></li>
+                <li><a href="#">Contato</a></li>
             </ul>
         </nav>
         <h1>Venha realizar a viagem dos seus sonhos!</h1>
     </header>
-    <section>
+    <section id="pacotes">
         <h2>Conheça nossos pacotes</h2>
         <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Fugiat ratione eos mollitia tempora voluptatibus tempore,
             pariatur unde vero perspiciatis temporibus expedita reprehenderit optio,
             nemo obcaecati deserunt! In quod quos nulla.
-            <br><br><a href="https://www.lipsum.com/">Link</a>
+            <!--<br><br><a href="https://www.lipsum.com/">Link</a>-->
             <hr>
         </p>
-        <figure>
-            <img src="/site/img/nossos-pacotes/gramado.jpeg" alt="Imagem de chalé em Gramado">
-            <figcaption>Gramado</figcaption>
-        </figure>
-        <figure>
-            <img src="/site/img/nossos-pacotes/porto-seguro.jpeg" alt="Praia em Porto Seguro">
-            <figcaption>Porto Seguro</figcaption>
-        </figure>
-        <figure>
-            <img src="/site/img/nossos-pacotes/rio-de-janeiro.jpeg" alt="Rio de Janeiro visto de cima">
-            <figcaption>Rio de Janeiro</figcaption>
-        </figure>
-
+        <div class="figuras">
+            <figure>
+                <img src="img/nossos-pacotes/gramado.jpeg" alt="Imagem de chalé em Gramado">
+                <figcaption>Gramado</figcaption>
+            </figure>
+            <figure>
+                <img src="img/nossos-pacotes/porto-seguro.jpeg" alt="Praia em Porto Seguro">
+                <figcaption>Porto Seguro</figcaption>
+            </figure>
+            <figure>
+                <img src="img/nossos-pacotes/rio-de-janeiro.jpeg" alt="Rio de Janeiro visto de cima">
+                <figcaption>Rio de Janeiro</figcaption>
+            </figure>
+        </div>
+        <div class="videos">
+            <video controls width="300px">
+                <source src="videos/rabbit320.mp4" type="video/mp4">
+                <source src="videos/video_rabbit320.webm" type="video/webm">
+                Seu navegador não suporta o formato do vídeo. <a href="videos/rabbit320.mp4">Clique aqui para baixar</a>
+            </video>
+        </div>
     </section>
-    <video controls width="300px">
-        <source src="videos/rabbit320.mp4" type="video/mp4">
-        <source src="videos/video_rabbit320.webm" type="video/webm">
-        Seu navegador não suporta o formato do vídeo. <a href="videos/rabbit320.mp4">Clique aqui para baixar</a>
-    </video>
-
+    <section>
+        <h2>Taxas e Serviços</h2>
+        <table>
+            <caption>Descrição dos serviços e respectivos valores</caption>
+            <thead>
+                <tr>
+                    <th>Serviço</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Reserva de Hotel</td>
+                    <td>R$150,00</td>
+                </tr>
+                <tr>
+                    <td>Compra de Passagens</td>
+                    <td>R$100,00</td>
+                </tr>
+                <tr>
+                    <td>Aluguel de Carros</td>
+                    <td>R$50,00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
     <section>
         <h2>Orçamento</h2>
         <form method="get" action="">
@@ -125,34 +155,6 @@
         </form>
 
     </section>
-    <br><br>
-    <!--<section>
-        <h2>Taxas e Serviços</h2>
-        <p>Veja nossas taxas para serviços</p>
-        <table border>
-            <caption>Descrição dos serviços e respectivos valores</caption>
-            <thead>
-                <tr>
-                    <th>Serviço</th>
-                    <th>Valor</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Reserva de Hotel</td>
-                    <td>R$150,00</td>
-                </tr>
-                <tr>
-                    <td>Compra de Passagens</td>
-                    <td>R$100,00</td>
-                </tr>
-                <tr>
-                    <td>Aluguel de Carros</td>
-                    <td>R$50,00</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>-->
     <footer>
         <p>Desenvolvido por Allyssan Marie</p>
     </footer>
