@@ -1,8 +1,8 @@
-body {
+/*body {
     font-weight: 400;
     font-family: Lato, Helvetica, sans-serif;
     font-size: 15px;
-    line-height: 2.2em; /*15px x 2.2 = 33px espaçamento entre linhas*/
+    line-height: 2.2em; /15px x 2.2 = 33px espaçamento entre linhas
     color: #818181;
     margin: 0;
 }
@@ -11,7 +11,7 @@ header {
 }
 section, footer {
     margin: 40px;
-}
+}*/
 h1 {
     font-size: 63px;
     color: #ffffff;
@@ -24,26 +24,28 @@ h2 {
     color: #303030;
     font-weight: 600;
 }
-nav li a {
+
+/*nav li a {
     padding: 10px;
     color: #ffffff;
-    text-decoration: none; /*retira a linha abaixo da palavra*/
+    text-decoration: none; /retira a linha abaixo da palavra
 
 }
 nav li {
-    float: left; /*posiciona elementos na pag, vao flutuar pro lado esquerdo */
+    float: left; /posiciona elementos na pag, vao flutuar pro lado esquerdo 
 }
 nav ul {
     float: right;
-    list-style: none; /*pra ficar sem a bolinha de lista*/
+    list-style: none; /pra ficar sem a bolinha de lista
 }
 nav {
     font-size: 12px;
-    letter-spacing: 4px; /*espaçamento entre as letras*/
+    letter-spacing: 4px; /espaçamento entre as letras
     height: 50px;
     background-color: #a14949;
     padding-right: 40px;
 }
+*/
 table {
     width: 100%;
 }
@@ -61,9 +63,11 @@ table thead th { /*cabeçalho da tabela*/
     background-color: #f4511e;
     color: #ffffff;
 }
-#pacotes .figuras figure {
+
+
+/*#pacotes .figuras figure {
     display: inline-block;
 }
 #pacotes .figuras, #pacotes .videos {
     text-align: center;
-}
+}*/
